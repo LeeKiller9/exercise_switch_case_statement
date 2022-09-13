@@ -18,6 +18,6 @@ function check_month() {
             default:
                 day = 31
         }
+        document.getElementById('result').innerHTML = 'Month ' + month + ' have ' + day + ' Day'
     }
-    document.getElementById('result').innerHTML = 'Month ' + month + ' have ' + day + ' Day'
 }
