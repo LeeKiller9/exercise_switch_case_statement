@@ -3,6 +3,7 @@ function check_month() {
     let month = document.getElementById('month').value
     if (month === '' || month < 1 || month > 12) {
         alert('Wrong data')
+        document.getElementById('result').innerHTML = '...'
     } else {
         month = parseInt(month)
         switch (month) {
