@@ -8,16 +8,16 @@ function check_month() {
         month = parseInt(month)
         switch (month) {
             case 2:
-                day = 28
+                day = '28 or 29'
                 break
             case 4:
             case 6:
             case 9:
             case 11:
-                day = 30
+                day = '30'
                 break
             default:
-                day = 31
+                day = '31'
         }
         document.getElementById('result').innerHTML = 'Month ' + month + ' have ' + day + ' Day'
     }
