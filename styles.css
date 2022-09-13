@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input, label {
+    display: inline-block;
+}
+
+label {
+    width: 100px;
+    margin: 20px 0;
+}
+
+input {
+    width: 250px
+}
+
+button {
+    font-size: 15px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
